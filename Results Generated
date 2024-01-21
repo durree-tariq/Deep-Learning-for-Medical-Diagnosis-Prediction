@@ -1,0 +1,18 @@
+First few samples of the tuberculosis diagnosis dataset:
+      Cough     Fever  Weight_Loss  Has_Tuberculosis
+0 -0.055047 -0.076900     1.014236                 1
+1 -1.539644 -1.135646     0.951151                 0
+2 -0.801402  0.114717    -0.534702                 0
+3  2.203781 -2.440252     2.165799                 1
+4 -0.766340  0.198916    -1.456762                 0
+
+Accuracy: 100.00%
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         7
+           1       1.00      1.00      1.00        13
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
